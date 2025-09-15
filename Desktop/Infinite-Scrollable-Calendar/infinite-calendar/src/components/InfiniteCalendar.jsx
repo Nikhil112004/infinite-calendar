@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import Calendar from "./Calendar";
 import JournalModal from "./JournalModal";
 import Loader from "./Loader";
-import { journalData } from "./journalData";
+import { journalData } from "./JournalData";
 
 export default function InfiniteCalendar() {
   const [months, setMonths] = useState([new Date()]);
