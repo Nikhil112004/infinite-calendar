@@ -1,4 +1,4 @@
-export const journalEntries = [
+export const journalData = [
   {
     date: "2025-09-14",
     imgUrl: "https://fruitbasket.limepack.com/blog/wp-content/uploads/2024/03/modern-cafe-house.jpg",

@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import Calendar from "./Calendar";
 import JournalModal from "./JournalModal";
 import Loader from "./Loader";
-import { journalEntries } from "./journalData";
+import { journalData } from "./journalData";
 
 export default function InfiniteCalendar() {
   const [months, setMonths] = useState([new Date()]);
@@ -47,7 +47,7 @@ export default function InfiniteCalendar() {
         <Calendar
           key={idx}
           currentDate={date}
-          journalEntries={journalEntries}
+          journalEntries={journalData}
           onEntryClick={setSelectedEntry}
         />
       ))}
@@ -58,7 +58,7 @@ export default function InfiniteCalendar() {
       <JournalModal
         entry={selectedEntry}
         onClose={() => setSelectedEntry(null)}
-        journalEntries={journalEntries}
+        journalEntries={journalData}
       />
     </div>
   );
