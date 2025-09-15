@@ -1,4 +1,3 @@
-
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, startOfWeek, endOfWeek } from "date-fns";
 import { motion } from "framer-motion";
 
