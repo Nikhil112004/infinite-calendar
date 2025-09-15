@@ -1,4 +1,3 @@
-// src/InfiniteCalendar.jsx
 import { useState, useEffect } from "react";
 import { addMonths, subMonths } from "date-fns";
 import { useInView } from "react-intersection-observer";
